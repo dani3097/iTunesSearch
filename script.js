@@ -28,8 +28,12 @@ function getDataFromItunes(){
               <p>${song.artistName}</p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Price ${song.trackPrice}<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              <span class="card-title grey-text text-darken-4">Price: ${song.trackPrice}<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4">Time: ${song.trackTimeMillis}<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4">Country: ${song.country}<i class="material-icons right">close</i></span>
+
+              <span class="card-title grey-text text-darken-4">Genre: ${song.primaryGenreName}<i class="material-icons right">close</i></span>
+              <p>Album name: ${song.collectionName}</p>
             </div>
           </div>
           </div>
