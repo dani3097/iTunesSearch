@@ -1,3 +1,4 @@
+
 let button = document.querySelector("#submit")
 let input = document.querySelector('#search')
 let output = document.querySelector('#output')
